@@ -3,7 +3,7 @@
 /**
  * print_sign - prints the signs upon comparision and returns a value
  * @n: an input number
- * return: based on the comparitor
+ * Return: based on the comparitor
  */
 
 int print_sign(int n)
