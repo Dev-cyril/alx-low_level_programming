@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
- * _abs - Check code
- *@r: integer input
+ * _abs - absolute value of an integer
+ * @r - integer input
  * Return: absolute value
+ */
 
 int _abs(int r)
 {
