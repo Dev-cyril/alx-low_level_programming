@@ -2,6 +2,7 @@
 
 /**
  *main - Entry point
+ * print_alphabet - prints alphabet from a - z followed by a new line
  * Return: void
  */
 
