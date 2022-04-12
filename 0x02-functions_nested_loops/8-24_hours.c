@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * jack_bauer - function that contains the codes
