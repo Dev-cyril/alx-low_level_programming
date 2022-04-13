@@ -18,9 +18,9 @@ int main(void)
 		printf("%lu, ", n3);
 	}
 	n1 += n3;
-	n2= n1 + n3;
+	n2 = n1 + n3;
 
-	for (i = 91; i < 98; i++)
+	for (i = 92; i < 98; i++)
 	{
 		n3 = n1 + n2;
 		n1 = n2;
