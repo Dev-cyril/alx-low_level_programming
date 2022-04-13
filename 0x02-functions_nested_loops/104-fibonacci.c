@@ -31,7 +31,7 @@ int main(void)
 		if (i == 97)
 			printf("%lu\n", n6);
 		else
-			printf("%lu, ". n6);
+			printf("%lu, ", n6);
 	}
 	return (0);
 }
