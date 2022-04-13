@@ -21,7 +21,7 @@ int main(void)
 			printf("%lu, ", n3);
 	}
 	n4 = n3;
-	n5 = n4 + n3
+	n5 = n4 + n3;
 
 	for (i = 92; i < 98; i++)
 	{
