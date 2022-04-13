@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	unsigned long n6, n5, n4, n3, n2 = 2, n1 = 1;
+	unsigned long n3, n2 = 2, n1 = 1;
 
 	printf("%lu, %lu, ", n1, n2);
 	for (i = 2; i < 92; i++)
