@@ -23,7 +23,7 @@ int main(void)
 	n4 = n3;
 	n5 = n4 + n3;
 
-	for (i = 92; i < 98; i++)
+	for (i = 91; i < 98; i++)
 	{
 		n6 = n5 + n4;
 		n4 = n5;
