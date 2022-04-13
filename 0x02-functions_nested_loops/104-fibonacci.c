@@ -20,7 +20,7 @@ int main(void)
 		else
 			printf("%lu, ", n3);
 	}
-	n4 = n3;
+	n4 = n3 + n2;
 	n5 = n4 + n3;
 
 	for (i = 91; i < 98; i++)
