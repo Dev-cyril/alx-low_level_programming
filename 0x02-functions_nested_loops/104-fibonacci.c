@@ -20,7 +20,8 @@ int main(void)
 	n1 += n3;
 	n2 = n1 + n3;
 
-	for (i = 92; i < 98; i++)
+	printf("%lu, %lu, ", n1, n2);
+	for (i = 93; i < 98; i++)
 	{
 		n3 = n1 + n2;
 		n1 = n2;
