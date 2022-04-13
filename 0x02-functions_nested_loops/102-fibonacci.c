@@ -24,6 +24,8 @@ int main(void)
 		else
 		{
 			printf("%ld, ", n3);
+		}
+	
 	}
 	return (0);
 }
