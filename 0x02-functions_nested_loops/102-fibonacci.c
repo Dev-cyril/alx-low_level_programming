@@ -17,13 +17,12 @@ int main(void)
 		printf("%ld, ", n3);
 		n1 = n2;
 		n2 = n3;
-		/**if (i == 49)
-		*{
-		*	printf("%ld\n", n3);
-		*}
-		*else
-		*{
-		*	printf("%ld, ", n3);
-		*/
+		if (i == 49)
+		{
+			printf("%ld\n", n3);
+		}
+		else
+		{
+			printf("%ld, ", n3);
 	} return (0);
 }
