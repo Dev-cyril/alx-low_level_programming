@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			ptintf("FizzBuzz");
+			printf("FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
