@@ -8,15 +8,19 @@
 
 int _isupper(int c)
 {
-	char i;
+	char letter;
 	int check = 0;
 
-	for (i = 'A'; i <= 'Z'; i++)
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
-		if (i == c)
+		if (letter == c)
+		{
 			check = 1;
+		}
 		else
+		{
 			check = 0;
+		}
 	}
 	return (check);
 }
