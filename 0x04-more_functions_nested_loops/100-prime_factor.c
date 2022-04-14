@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * Returb: 0
+ * Return: 0
  */
 
 int main(void)
