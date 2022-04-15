@@ -8,13 +8,13 @@
 
 int _isdigit(int c)
 {
-	char i = '0';
+	char i;
 
 	for (i = '0'; i <= '9'; i++)
 	{
 		if (c == i)
 		{
-			return (10);
+			return (1);
 		}
 		else
 		{
