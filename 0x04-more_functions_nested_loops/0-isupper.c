@@ -16,10 +16,7 @@ int _isupper(int c)
 		if (letter == c)
 		{
 			check = 1;
-		}
-		else
-		{
-			check = 0;
+			break;
 		}
 	}
 	return (check);
