@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * rot13 - a function that encodes a string into rot13
- * @s: an input string
- * Return: encode string
+ * rot13 - encodes a string using rot13
+ * @s: input string.
+ * Return: the pointer to dest.
  */
+
 char *rot13(char *s)
 {
 	int i = 0;
@@ -16,17 +17,12 @@ char *rot13(char *s)
 		{
 			if ((s[i] >= 'a' && s[i] <= 'm') ||
 					(s[i] >= 'A' && s[i] <= 'M'))
-			{
 				s[i] += 13;
-			}
 			else
-			{
 				s[i] -= 13;
-			}
 			i++;
 		}
 		i++;
 	}
 	return (s);
 }
-
