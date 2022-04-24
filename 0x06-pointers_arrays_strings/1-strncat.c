@@ -3,7 +3,7 @@
 /**
  * _strncat - a function that concatenates two strings based on a condition
  * @dest: an input string
- * @scr: and input string
+ * @src: and input string
  * @n: and input integer
  * Return: a pointer to the resulting string
  */
