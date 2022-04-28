@@ -23,5 +23,5 @@ int _sqrt_recursion(int n)
  */
 int _sqrt(int a, int root)
 {
-	return (a *= _sqrt(a, (1 / root));
+	return (a *= _sqrt(a, (1 / root)));
 }
