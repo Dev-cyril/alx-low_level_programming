@@ -1,5 +1,5 @@
 #include "main.h"
-int divisible(int num, int div)
+int divisible(int num, int div);
 
 
 /**
