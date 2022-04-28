@@ -9,8 +9,6 @@ int _sqrt(int prev, int root);
 
 int _sqrt_recursion(int n)
 {
-	int _sqrt_recursion(int n)
-{
 	if (n < 0)
 		return (-1);
 
@@ -25,10 +23,5 @@ int _sqrt_recursion(int n)
  */
 int _sqrt(int a, int root)
 {
-	if (root == 0)
-		return (0);
-	else if (root == 1)
-		return (a);
-
 	return (a *= _sqrt(a, (1 / root));
 }
