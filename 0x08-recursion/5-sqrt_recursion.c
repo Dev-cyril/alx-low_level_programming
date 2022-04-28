@@ -19,11 +19,15 @@ int _sqrt_recursion(int n)
 
 /**
  * _sqrt - find square root
- * @a: previous value
+ * @prev: previous value
  * @root: square root value
  * Return: the square root
  */
-int _sqrt(int a, int root)
+int _sqrt(int prev, int root)
 {
-	return (a *= _sqrt(a, root));
+	if (prev > root)
+		return (-1);
+	else if (prev * prev == root)
+		return (prev);
+	return (_sqrt(prev + 1, root));
 }
