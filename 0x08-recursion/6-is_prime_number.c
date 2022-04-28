@@ -1,7 +1,6 @@
 #include "main.h"
 int divisible(int num, int div);
 
-
 /**
  * is_prime_number - Afunction that checks if a number is prime.
  * @n: an input integer
@@ -28,7 +27,5 @@ int is_prime_number(int n)
 
 int divisible(int num, int div)
 {
-	int div = 2;
-
 	return (divisible(num, div + 1));
 }
