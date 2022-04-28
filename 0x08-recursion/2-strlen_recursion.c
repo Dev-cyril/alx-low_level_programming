@@ -2,7 +2,7 @@
 
 /**
  * _strlen_recursion - returns the length of a string
- * :s: string input
+ * @s: string input
  * Return: length of s
  */
 
