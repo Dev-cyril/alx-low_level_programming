@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * create_array - function that creates an array of characters
  * @size: integer input with the number of elements in the array
@@ -8,17 +9,17 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *cs;
+	//char *cs;
        
-	cs = malloc(size * sizeof(c));
+	c = malloc(size * sizeof(c));
 
-	if (cs == 0 || cs == NULL)
+	if (c == 0 || c == NULL)
 		return (NULL);
 
 	int i;
 
 	for (i = 0; i < size; i++)
-		cs[i] = c;
+		c[i];
 
 	return (c);
 }
