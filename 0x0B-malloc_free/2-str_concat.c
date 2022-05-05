@@ -11,7 +11,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	int i, j, k;
-	char *strcat, *str1, *str2;
+	char *strCat, *str1, *str2;
 
 	str1 = s1;
 	str2 = s2;
@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	for (k = 0; k < (i + j); k++)
 	{
-		if (k < str1)
+		if (k < i)
 		{
 			strCat[k] = *s1;
 			s1++;
