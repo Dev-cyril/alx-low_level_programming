@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 		}
 		else
 		{
-			strCat[k] = s2;
+			strCat[k] = *s2;
 			s2++;
 		}
 	}
