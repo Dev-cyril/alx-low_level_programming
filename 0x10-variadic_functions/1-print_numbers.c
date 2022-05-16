@@ -4,8 +4,8 @@
 #include <stdio.h>
 
 /**
- * prints_numbers - function that prints the numbers inputd in an argument
- * @seperator: string to be printed between numbers
+ * print_numbers - function that prints the numbers inputd in an argument
+ * @separator: string to be printed between numbers
  * @n: number of integers passed
  * Return: nothing
  */
