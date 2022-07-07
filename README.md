@@ -1,1 +1,1 @@
-This directory aims at treating the concepts of variables, loops and conditional statements
+This repository contains directories for for different tasks. Kindly check directories readme file for details
