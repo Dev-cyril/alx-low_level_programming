@@ -3,3 +3,5 @@ SRC = *.c
 
 all:
 	$(CC) $(SRC) -o school
+exec:
+	./school
