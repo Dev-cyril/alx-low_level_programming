@@ -7,5 +7,3 @@ NAME = school
 	$(CC) -c -o $@ $<
 all:
 	$(CC) $(OBJ) -o $(NAME)
-exec:
-	./school
