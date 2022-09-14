@@ -24,5 +24,5 @@ def island_perimeter(grid):
                     edges += 1
                 if (i > 0 and grid[i - 1][x] == 1):
                     edges += 1
-    perimeter = (4 * size) - 8
+    perimeter = (4 * size) - (2 * edges)
     return perimeter
