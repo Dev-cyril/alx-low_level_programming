@@ -1,0 +1,6 @@
+all:
+	gcc main.c school.c -o school
+exec:
+	./school
+CC = gcc
+SRC = *.c
