@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A MODULE THAT COMPUTES THE PERIMETER OF AN ISLAND"""
 
+
 def island_perimeter(grid):
     """calculates the perimeter of the island
         0 represents a water zone
@@ -12,12 +13,16 @@ def island_perimeter(grid):
             grid - a list is list of integers
     """
     width = len(grid[0])
-    height  = len(grid)
+    height = len(grid)
     size = 0
+    edges = 0
     for i in range(height):
         for x in range(width):
             if grid[i][x] == 1:
                 size += 1
-
-    perimeter = (2 * (width + height)) - (2 * size)
+                if (x > 0 and grid[i][x - 1] == 1):
+                    edges += 1
+                if (i > 0 and grid[i - 1][x] == 1):
+                    edges += 1
+    perimeter = (4 * size) - 8
     return perimeter
